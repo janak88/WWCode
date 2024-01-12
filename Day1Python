@@ -1,0 +1,18 @@
+#Building a program that swaps the values of two variables
+#To make the concept interesting I replaced the variable in context to asking users their strength and weakness. 
+
+a = input('Enter your strength: ')
+b = input('Enter value of weakness: ')
+
+print("Before Swapping:")
+print("strength =", a)
+print("weakness =", b)
+
+a,b=b,a
+
+print("After Swapping:")
+print("strength =", a)
+print("weakness =", b)
+
+#The input later converts the weakness to strength and strength to weakness
+#The user can further dwell into their own understandings for self-reflection
