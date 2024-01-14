@@ -1,0 +1,14 @@
+ # Day 3: Write a function to count the number of vowels in a given string
+
+def numVowels():
+
+    givenStrg = str(input("Enter any sentence here of your choice: "))
+    vowel = set("aeiouAEIOU")
+    count = 0
+
+    for alphabet in givenStrg:
+        if alphabet in vowel:
+            count = count + 1
+    print("The number of vowels is: " + str(count))
+
+numVowels()
