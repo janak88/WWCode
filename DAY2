@@ -1,0 +1,16 @@
+import math
+
+def get_user_input():
+    return input("Please enter a radius: ")
+
+def area_calc(radius):
+    pi = math.pi
+    return float(radius)*2*pi
+
+def main():
+    radius = get_user_input()
+    area = area_calc(radius)
+    print("The area of a circle with radius " + str(radius) + " is " + str(area) + " square units.")
+
+if __name__ == '__main__':
+    main()
